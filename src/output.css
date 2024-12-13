@@ -739,6 +739,18 @@ video {
   background-image: url('\images\bg-home.jpg');
 }
 
+.bg-\[url\(\'images\/bg-home\.jpg\'\)\] {
+  background-image: url('images/bg-home.jpg');
+}
+
+.bg-\[url\(\'\\images\/bg-home\.jpg\'\)\] {
+  background-image: url('\images/bg-home.jpg');
+}
+
+.bg-\[url\(\/images\/bg-home\.jpg\)\] {
+  background-image: url(/images/bg-home.jpg);
+}
+
 .p-6 {
   padding: 1.5rem;
 }
