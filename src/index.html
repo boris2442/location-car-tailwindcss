@@ -3,24 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
   <!-- <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1> -->
-<header class="grid grid-cols-3 pt-6">
+<header class="flex justify-between">
     <div class="logo">
-        <img src="/images/logo.png" alt="">
+      <a href="#">
+        <img src="/images/logo.png" alt="" class="w-10">
+    </a>
     </div>
         <nav>
-            <ul class="flex justify-between">
-                <li><a href="#home"class="text-2xl">home</a></li>
-                <li><a href="#voitures"class="text-2xl">voitures</a></li>
-                <li><a href="#services"class="">services</a></li>
-                <li><a href="#a propos"class="text-2xl">a propos</a></li>
-                <li><a href="#les avis"class="text-2xl">les avis</a></li>
+            <ul class="flex space-x-6">
+                <li>
+                    <a href="#home" class="text-2xl hover:text-orange-600" target="_blank" >home</a>
+                </li>
+                <li>
+                    <a href="#voitures" class="text-2xl hover:text-orange-600" target="_blank">voitures</a>
+                </li>
+                <li>
+                    <a href="#services" class="text-2xl hover:text-orange-600" target="_blank">services</a>
+                </li>
+                <li>
+                    <a href="#a propos" class="text-2xl hover:text-orange-600" target="_blank">a propos</a>
+                </li>
+                <li>
+                    <a href="#les avis" class="text-2xl hover:text-orange-600">les avis</a>
+                </li>
             </ul>
         </nav>
     
