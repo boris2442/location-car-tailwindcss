@@ -627,6 +627,62 @@ video {
   background-image: url();
 }
 
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\/imagesg\/hero-pattern\.svg\'\)\] {
+  background-image: url('/imagesg/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\/images\.svg\'\)\] {
+  background-image: url('/images.svg');
+}
+
+.bg-\[url\(\'\/images\.g\'\)\] {
+  background-image: url('/images.g');
+}
+
+.bg-\[url\(\'\/images\.jpg\'\)\] {
+  background-image: url('/images.jpg');
+}
+
+.bg-\[url\(\'\/images\/\.jpg\'\)\] {
+  background-image: url('/images/.jpg');
+}
+
+.bg-\[url\(\'\/images\/b\.jpg\'\)\] {
+  background-image: url('/images/b.jpg');
+}
+
+.bg-\[url\(\'\/images\/bg\.jpg\'\)\] {
+  background-image: url('/images/bg.jpg');
+}
+
+.bg-\[url\(\'\/images\/bg-\.jpg\'\)\] {
+  background-image: url('/images/bg-.jpg');
+}
+
+.bg-\[url\(\'\/images\/bg-home\.jpg\'\)\] {
+  background-image: url('/images/bg-home.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
