@@ -818,6 +818,14 @@ video {
   padding: 20px;
 }
 
+.p-\[40px\] {
+  padding: 40px;
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -933,6 +941,18 @@ video {
 
 .pr-\[20px\] {
   padding-right: 20px;
+}
+
+.pt-\[-60px\] {
+  padding-top: -60px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
 }
 
 .text-center {
