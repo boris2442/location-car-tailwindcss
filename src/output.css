@@ -971,6 +971,10 @@ video {
   font-weight: 600;
 }
 
+.leading-relaxed {
+  line-height: 1.625;
+}
+
 .text-orange-400 {
   --tw-text-opacity: 1;
   color: rgb(251 146 60 / var(--tw-text-opacity, 1));
