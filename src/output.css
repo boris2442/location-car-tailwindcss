@@ -826,3 +826,15 @@ video {
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity, 1));
 }
+
+.focus\:border-0:focus {
+  border-width: 0px;
+}
+
+.active\:bottom-0:active {
+  bottom: 0px;
+}
+
+.active\:border-0:active {
+  border-width: 0px;
+}
