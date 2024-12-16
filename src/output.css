@@ -591,6 +591,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-\[130px\] {
   height: 130px;
 }
@@ -699,6 +703,14 @@ video {
   gap: 15px;
 }
 
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
+}
+
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -712,6 +724,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded {
@@ -911,6 +927,10 @@ video {
 
 .pt-\[60px\] {
   padding-top: 60px;
+}
+
+.pr-\[\] {
+  padding-right: ;
 }
 
 .text-center {
