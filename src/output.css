@@ -571,6 +571,16 @@ video {
   margin-right: auto;
 }
 
+.mx-\[\] {
+  margin-left: ;
+  margin-right: ;
+}
+
+.mx-\[auto\] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-\[2px\] {
   margin-bottom: 2px;
 }
@@ -613,6 +623,10 @@ video {
 
 .h-\[50px\] {
   height: 50px;
+}
+
+.h-\[auto\] {
+  height: auto;
 }
 
 .min-h-\[100vh\] {
@@ -931,6 +945,10 @@ video {
 
 .pr-\[\] {
   padding-right: ;
+}
+
+.pb-\[40px\] {
+  padding-bottom: 40px;
 }
 
 .text-center {
