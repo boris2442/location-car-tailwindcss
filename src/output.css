@@ -558,6 +558,8 @@ video {
 
 img:hover {
   transform: rotateY(190deg);
+  cursor:pointer;
+  border-radius: 7px;
   transition: transform 0.99s ease-in-out;
 }
 
@@ -721,6 +723,10 @@ img:hover {
 
 .gap-\[25px\] {
   gap: 25px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-x-10 {

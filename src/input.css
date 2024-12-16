@@ -8,6 +8,8 @@
     /* Effet de rotation sur hover pour les images */
     img:hover {
       transform: rotateY(190deg);
+      cursor:pointer;
+      border-radius: 7px;
       transition: transform 0.99s ease-in-out;
     }
   }
