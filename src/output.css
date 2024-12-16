@@ -629,6 +629,10 @@ video {
   height: auto;
 }
 
+.h-\[90px\] {
+  height: 90px;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -723,6 +727,10 @@ video {
 
 .gap-\[25px\] {
   gap: 25px;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-10 {
@@ -1053,7 +1061,17 @@ video {
   background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-orange-600:hover {
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
