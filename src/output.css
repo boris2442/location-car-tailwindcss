@@ -1059,6 +1059,10 @@ img:hover {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:inline-block {
+    display: inline-block;
+  }
+
   .max-sm\:hidden {
     display: none;
   }
