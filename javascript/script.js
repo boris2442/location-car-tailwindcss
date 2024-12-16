@@ -1,6 +1,6 @@
 const menu=document.querySelector("nav ul");
-const burger=document.querySelector(".burger");
+const bgr=document.querySelector(".burger");
 
-burger.addEventListener("click", ()=>{
+bgr.addEventListener("click", ()=>{
     menu.classList.toggle("title")
 })
