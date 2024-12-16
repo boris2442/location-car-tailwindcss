@@ -677,6 +677,10 @@ video {
   cursor: pointer;
 }
 
+.cursor-wait {
+  cursor: wait;
+}
+
 .flex-col {
   flex-direction: column;
 }
