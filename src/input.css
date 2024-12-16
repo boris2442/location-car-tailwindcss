@@ -12,5 +12,13 @@
       border-radius: 7px;
       transition: transform 0.99s ease-in-out;
     }
-    
+    .title{
+        position: absolute;
+        right:10%;
+        display:flex;
+        flex-direction: column;
+        grid-column: 10px;
+        
+
+    }
   }

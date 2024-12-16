@@ -563,6 +563,10 @@ img:hover {
   transition: transform 0.99s ease-in-out;
 }
 
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
