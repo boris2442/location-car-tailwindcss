@@ -1067,9 +1067,3 @@ img:hover {
     display: none;
   }
 }
-
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
