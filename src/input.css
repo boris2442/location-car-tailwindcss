@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+
+@layer base {
+    /* Effet de rotation sur hover pour les images */
+    img:hover {
+      transform: rotateY(190deg);
+      transition: transform 0.99s ease-in-out;
+    }
+  }
