@@ -1,6 +1,11 @@
-const menu=document.querySelector("nav ul");
-const bgr=document.querySelector(".burger");
-
-bgr.addEventListener("click", ()=>{
-    menu.classList.toggle("title")
+burgerMenu.addEventListener('click',(e)=>{
+    menu.classList.toggle('max-sm:hidden');
 })
+
+let liens = document.querySelectorAll('#menu a');
+console.log(liens);
+ 
+liens.forEach(lien => {
+    
+    
+});

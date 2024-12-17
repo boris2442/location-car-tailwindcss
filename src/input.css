@@ -12,14 +12,17 @@
       border-radius: 7px;
       transition: transform 0.99s ease-in-out;
     }
+
+    @media screen and (max-width: 640px){
+
+    }
     .title{
         position: absolute;
         right:20px;
-        top:30%;
+        top:100%;
+        color:white;
         display:flex;
         flex-direction: column;
         grid-column: 10px;
-
-
     }
   }
