@@ -582,6 +582,10 @@ img:hover {
   z-index: 20;
 }
 
+.float-right {
+  float: right;
+}
+
 .mx-\[auto\] {
   margin-left: auto;
   margin-right: auto;
@@ -606,6 +610,10 @@ img:hover {
 
 .mt-\[30px\] {
   margin-top: 30px;
+}
+
+.mr-0 {
+  margin-right: 0px;
 }
 
 .flex {
