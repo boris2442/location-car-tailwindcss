@@ -596,6 +596,11 @@ img:hover {
   margin-right: auto;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mb-\[2px\] {
   margin-bottom: 2px;
 }
@@ -688,6 +693,10 @@ img:hover {
   width: 100%;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -700,8 +709,16 @@ img:hover {
   flex-wrap: wrap;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -953,8 +970,16 @@ img:hover {
   padding-top: 60px;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-2xl {
