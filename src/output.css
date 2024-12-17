@@ -601,6 +601,11 @@ img:hover {
   margin-right: 0px;
 }
 
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .mb-\[2px\] {
   margin-bottom: 2px;
 }
